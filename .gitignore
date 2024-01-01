@@ -1,3 +1,4 @@
 /.env
 /chatpdf_env
 /__pycache__
+.streamlit/*
