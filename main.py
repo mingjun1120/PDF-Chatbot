@@ -149,10 +149,11 @@ def get_conversation_chain(vectorstore):
 
 # Function to remove files in the Upload folder
 def remove_files():
-    path = ".\\Upload"
+    path = os.path.join(os.getcwd(), 'Upload')
     for file_name in os.listdir(path):
         # construct full file path
-        file = path + '\\' + file_name
+        # file = path + '\\' + file_name
+        file = os.path.join(path, file_name)
         if os.path.isfile(file) and file.endswith(".pdf"): # Only remove the PDF files
             print('Deleting file:', file)
             os.remove(file)
