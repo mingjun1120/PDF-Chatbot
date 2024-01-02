@@ -13,9 +13,7 @@ streamlit_extras
 streamlit_option_menu
 textract
 tiktoken
-chromadb
 huggingface_hub
 pypdf
 InstructorEmbedding
-sentence_transformers
 nbformat
