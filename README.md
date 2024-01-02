@@ -76,5 +76,5 @@ Contributions are always welcome!
 ## Demo
 Click the icon below to have a try on the web app:
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://mingjun1120-tiktokanalytics-app-4r8iat.streamlit.app/)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://multipdf-chatbot.streamlit.app/)
 
