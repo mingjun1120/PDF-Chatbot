@@ -97,8 +97,8 @@ def get_pdf_text_chunks():
 
         # Get the text chunks of the PDF file, accumulate to the text_chunks list variable becaus load_and_split() returns a list of Document
         text_chunks += loader.load_and_split(text_splitter=RecursiveCharacterTextSplitter(
-            chunk_size = 770,
-            chunk_overlap = 80,
+            chunk_size = 512,
+            chunk_overlap = 30,
             length_function = len,
             separators= ["\n\n", "\n", ".", " "]
         ))
